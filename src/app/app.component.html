@@ -1,4 +1,298 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<mat-accordion>
+	<mat-expansion-panel style="width: 75%">
+		<mat-expansion-panel-header>
+			<mat-panel-title>
+				<span>Open Here</span>
+			</mat-panel-title>
+		</mat-expansion-panel-header>
+		<ng-template matExpansionPanelContent>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+			<mat-form-field class="w-100">
+				<mat-label>Salg af varer m/moms</mat-label>
+				<mat-select required [compareWith]="compareObj">
+					<mat-optgroup *ngFor="let group of groupedAccount" [label]="group.name">
+						<mat-option *ngFor="let account of group.accounts" [disabled]="account.disabled"
+							[value]="account">
+							{{ account.number }} - {{ account.name }}
+						</mat-option>
+					</mat-optgroup>
+				</mat-select>
+			</mat-form-field>
+
+		</ng-template>
+	</mat-expansion-panel>
+</mat-accordion>
